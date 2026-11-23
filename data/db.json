@@ -1,0 +1,66 @@
+{
+  "admin": {
+    "email": "admin@chroma-ator.com",
+    "password": "chroma2026!",
+    "name": "Chroma Executive",
+    "role": "superadmin"
+  },
+  "jobs": [],
+  "enquiries": [
+    {
+      "id": "enq-1793340101843",
+      "name": "Aditya Singhal",
+      "company": "Singhal Steel Tubes",
+      "email": "aditya@singhalsteel.com",
+      "phone": "+91-9811223344",
+      "city": "Not specified",
+      "product": "Gas Generators",
+      "capacity": "1000 kVA",
+      "fuel": "PNG",
+      "type": "quote",
+      "message": "Looking to set up 1 MW captive cogen plant.",
+      "sizingDetails": null,
+      "status": "new",
+      "createdAt": "2026-10-30T06:01:41.843Z"
+    },
+    {
+      "id": "enq-101",
+      "name": "Rajesh Mehra",
+      "company": "Apex Industrial Polymers Ltd",
+      "email": "r.mehra@apexpolymers.in",
+      "phone": "+91-9820145520",
+      "city": "Pune, Maharashtra",
+      "product": "Gas Generators",
+      "capacity": "500 kVA Continuous",
+      "fuel": "Natural Gas (PNG)",
+      "type": "quote",
+      "message": "Looking to replace two 500 kVA diesel generators with grid-parallel PNG gas gensets to achieve carbon reduction and fuel cost savings.",
+      "sizingDetails": {
+        "connectedLoadKW": 400,
+        "powerFactor": 0.85,
+        "estimatedKVA": 470,
+        "fuelSavingsPerYear": "₹ 42,50,000",
+        "recommendedModel": "CA-G500 (500 kVA)"
+      },
+      "status": "new",
+      "createdAt": "2026-10-30T01:01:17.482Z"
+    },
+    {
+      "id": "enq-102",
+      "name": "Sunil Nair",
+      "company": "GreenFuel City Gas Distribution",
+      "email": "sunil.nair@greenfuelgas.com",
+      "phone": "+91-9447120934",
+      "city": "Kochi, Kerala",
+      "product": "Composite Dispensing Units (CDU)",
+      "capacity": "4-Hose High Flow",
+      "fuel": "CNG",
+      "type": "quote",
+      "message": "Require 6 units of Composite Dispensing Units for our new daughter stations along the national highway corridor with integrated priority panels.",
+      "sizingDetails": null,
+      "status": "quoted",
+      "createdAt": "2026-10-28T06:01:17.482Z"
+    }
+  ],
+  "applications": []
+}

@@ -1,0 +1,441 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#F3F5F2" />
+  <title>Chroma-Ator | Gas Generators, Gas Engines &amp; CNG Equipment India</title>
+  <meta name="description" content="Chroma-Ator is an Indian manufacturer of gas generators from 5 kVA to 20 MW, 10–70 HP CPCB-approved gas engines, dual-fuel systems and PESO-approved CNG dispensing equipment." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="/emergent_theme.css?v=2.9" />
+  <link rel="stylesheet" href="/styles.css?v=6.4" />
+
+  <!-- Tailwind Config Layer -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            obsidian: '#F3F5F2',
+            forest: '#E8EEE9',
+            emerald: '#078F4A',
+            'neon-emerald': '#078F4A',
+            pearl: '#17251E',
+            gold: '#C79500',
+            muted: '#65766D'
+          },
+          fontFamily: {
+            heading: ['Inter', 'sans-serif'],
+            sans: ['Inter', 'sans-serif'],
+            mono: ['Inter', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- OpenGraph -->
+  <meta property="og:title" content="Chroma-Ator | Gas Generators, Gas Engines &amp; CNG Equipment" />
+  <meta property="og:description" content="Indian manufacturer of 5 kVA–20 MW gas generators, 10–70 HP CPCB-approved gas engines, dual-fuel systems and PESO-approved CNG dispensing equipment." />
+  <meta property="og:type" content="website" />
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Chroma-Ator",
+    "legalName":"Chroma Power Systems India Private Limited",
+    "url":"https://chroma-ator.com/",
+    "email":["sales@chroma-ator.com","kamal@chroma-ator.com","parushi@chroma-ator.com","shashikant@chroma-ator.com"],
+    "telephone":"+91 9811194542",
+    "foundingDate":"1995",
+    "slogan":"Powering a Cleaner, More Efficient Future",
+    "description":"Indian manufacturer of gas generators, gas engines, dual-fuel systems and CNG refuelling equipment.",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"F-337, RICO Industrial Growth Centre Extension",
+      "addressLocality":"Dholpur",
+      "addressRegion":"Rajasthan",
+      "addressCountry":"IN"
+    },
+    "department":{
+      "@type":"Organization",
+      "name":"CHROMA-ATOR INTERNATIONAL FZ LLC",
+      "email":"parushi@chroma-ator.com",
+      "telephone":"+971 585996045",
+      "address":{
+        "@type":"PostalAddress",
+        "streetAddress":"Compass Building - Al Hulaila, Al Hulaila Industrial Zone-FZ",
+        "addressLocality":"Ras Al Khaimah",
+        "addressCountry":"AE"
+      }
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav class="nav" id="site-nav">
+    <div class="container">
+      <div class="nav__inner">
+
+        <!-- Logo -->
+        <a href="#home" class="nav__logo">
+          <img class="nav__logo-image" src="/chroma-ator-logo.png" alt="Chroma-Ator" />
+        </a>
+
+        <!-- Desktop links -->
+        <ul class="nav__links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#products">Products &amp; 3D</a></li>
+          <li><a href="#international">International Business</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+
+        <!-- Actions -->
+        <div class="nav__actions">
+          <a href="#admin" style="color:var(--c-muted);padding:8px;border-radius:8px;display:grid;place-items:center;transition:color .2s" title="Admin Portal">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </a>
+
+          <!-- Enquiries dropdown -->
+          <div class="nav__dropdown" id="nav-enquiry-dropdown">
+            <button type="button" class="btn btn-primary btn-sm nav__dropdown-toggle" id="nav-enquiry-toggle" aria-expanded="false" aria-controls="nav-enquiry-menu">
+              <span>Request Quote</span>
+              <svg class="nav__dropdown-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="nav__dropdown-menu" id="nav-enquiry-menu" role="menu">
+              <button type="button" class="nav__dropdown-item" role="menuitem" onclick="window.ChromaApp&&ChromaApp.openEnquiryModal('quote')">
+                <i data-lucide="file-text"></i>
+                <span>Request a Quote</span>
+              </button>
+              <button type="button" class="nav__dropdown-item" role="menuitem" onclick="window.ChromaApp&&ChromaApp.openEnquiryModal('distributor')">
+                <i data-lucide="users"></i>
+                <span>Become a Distributor</span>
+              </button>
+              <button type="button" class="nav__dropdown-item" role="menuitem" onclick="window.ChromaApp&&ChromaApp.openEnquiryModal('international')">
+                <i data-lucide="globe"></i>
+                <span>International Queries</span>
+              </button>
+              <div class="nav__dropdown-sep" role="separator"></div>
+              <a class="nav__dropdown-item" role="menuitem" href="#catalogs">
+                <i data-lucide="book-open"></i>
+                <span>View Product Catalog</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hamburger -->
+          <button class="nav__hamburger" id="nav-hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="nav__drawer" id="nav-drawer">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#products">Products &amp; 3D Studio</a>
+      <a href="#international">International Business</a>
+      <a href="#projects">Projects</a>
+      <a href="#careers">Careers</a>
+      <a href="#support">Support</a>
+      <a href="#contact">Contact Us</a>
+      <a href="#admin" style="color:var(--c-gold)">Executive Admin</a>
+      <div class="nav__drawer-group" id="drawer-enquiry-group">
+        <button type="button" class="nav__drawer-group-toggle" id="drawer-enquiry-toggle" aria-expanded="false" aria-controls="drawer-enquiry-sub">
+          <span>Request Quote &amp; Enquiries</span>
+          <svg class="nav__drawer-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="nav__drawer-sub" id="drawer-enquiry-sub">
+          <button type="button" onclick="window.ChromaApp&&ChromaApp.openEnquiryModal('quote')">Request a Quote</button>
+          <button type="button" onclick="window.ChromaApp&&ChromaApp.openEnquiryModal('distributor')">Become a Distributor</button>
+          <button type="button" onclick="window.ChromaApp&&ChromaApp.openEnquiryModal('international')">International Queries</button>
+          <a href="#catalogs">View Product Catalog</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       APP ROOT — app.js renders views here
+  ============================================================ -->
+  <main id="app-main">
+    <div id="app-root"></div>
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" id="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+
+        <!-- Brand -->
+        <div>
+          <div class="nav__logo" style="margin-bottom:16px">
+            <img class="nav__logo-image" src="/chroma-ator-logo.png" alt="Chroma-Ator" />
+          </div>
+          <p style="font-family:var(--font-mono);font-size:.65rem;text-transform:uppercase;letter-spacing:.12em;color:var(--c-green);margin-bottom:12px">Chroma Power Systems India Private Limited</p>
+          
+          <div>
+            <div class="footer__contact-item">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2A19.79 19.79 0 013.08 4.18 2 2 0 015.07 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L9.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+              <span>Sales: <a href="tel:+919811194542">+91 9811194542</a> / <a href="tel:+919350679448">+91 9350679448</a><br />Service: <a href="tel:+919350679448">+91 9350679448</a> / <a href="tel:+919350508019">+91 9350508019</a><br />Engineer: <a href="tel:+919218043940">+91 9218043940</a></span>
+            </div>
+            <div class="footer__contact-item">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span class="footer__emails">
+                <a href="mailto:sales@chroma-ator.com">sales@chroma-ator.com</a>
+                <a href="mailto:kamal@chroma-ator.com">kamal@chroma-ator.com</a>
+                <a href="mailto:parushi@chroma-ator.com">parushi@chroma-ator.com</a>
+                <a href="mailto:shashikant@chroma-ator.com">shashikant@chroma-ator.com</a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Products -->
+        <div>
+          <p class="footer__col-title">Products</p>
+          <ul class="footer__links">
+            <li><a href="#product/gas-generators">Gas Generators</a></li>
+            <li><a href="#product/gas-engines">Gas Engines</a></li>
+            <li><a href="#product/dual-fuel-systems">Dual-Fuel Systems</a></li>
+            <li><a href="#product/composite-dispensing-units">Composite Dispensing Units</a></li>
+            <li><a href="#product/cng-dispensers">Dispensers</a></li>
+            <li><a href="#product/mobile-refuelling-units">Mobile Refuelling Units</a></li>
+          </ul>
+        </div>
+
+        <!-- Company -->
+        <div>
+          <p class="footer__col-title">Company</p>
+          <ul class="footer__links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#international">International Business</a></li>
+            <li><a href="#about">Our Journey</a></li>
+            <li><a href="#about">Capabilities</a></li>
+            <li><a href="#projects">Case Studies</a></li>
+            <li><a href="#careers">Careers</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer__bottom">
+        <span class="footer__bottom-left">© 2026 Chroma Power Systems India Private Limited. All rights reserved.</span>
+        <div class="footer__bottom-right">
+          <span style="color:var(--c-green);font-family:var(--font-mono);font-size:.75rem;text-transform:uppercase;letter-spacing:.08em">Powering a Cleaner, More Efficient Future</span>
+          <a href="#admin">Admin Portal</a>
+          <a href="#legal">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       QUOTE MODAL
+  ============================================================ -->
+  <div class="modal-overlay modal-backdrop" id="quote-modal">
+    <div class="modal-box modal-container">
+      <div class="modal-header">
+        <div>
+          <span class="badge badge-green" id="modal-quote-badge" style="margin-bottom:10px">Request Proposal</span>
+          <h3 class="t-h3" id="modal-quote-heading">Request a Commercial &amp; Technical Quote</h3>
+          <p class="t-small text-muted" id="modal-quote-subtitle" style="margin-top:6px">Our application engineering team will provide a detailed techno-commercial quotation.</p>
+        </div>
+        <button class="modal-header__close" onclick="window.ChromaApp&&ChromaApp.closeModal('quote')" aria-label="Close">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="form-quote" onsubmit="window.ChromaApp&&ChromaApp.submitQuote(event)">
+          <input type="hidden" name="type" id="modal-quote-type" value="quote" />
+          <div class="field-row">
+            <div class="field">
+              <label>Full Name *</label>
+              <input type="text" name="name" required placeholder="Your name" />
+            </div>
+            <div class="field">
+              <label>Company / Organization *</label>
+              <input type="text" name="company" required placeholder="Your company" />
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label>Business Email *</label>
+              <input type="email" name="email" required placeholder="name@company.com" />
+            </div>
+            <div class="field">
+              <label>Phone Number *</label>
+              <input type="tel" name="phone" required placeholder="+91 ..." />
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label>City &amp; State</label>
+              <input type="text" name="city" placeholder="e.g. Pune, Maharashtra" />
+            </div>
+            <div class="field">
+              <label>Product of Interest</label>
+              <select name="product" id="modal-quote-product">
+                <option>Gas Generators (5 kVA to 20 MW)</option>
+                <option>Gas Engines (10–70 HP)</option>
+                <option>Dual-Fuel Systems</option>
+                <option>Composite Dispensing Units (CDU)</option>
+                <option>Dispensers</option>
+                <option>Mobile Refuelling Units (MRU)</option>
+                <option>Water Metering &amp; O&amp;M</option>
+                <option>Distributorship / Dealership</option>
+                <option>International Enquiry</option>
+              </select>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label>Required Capacity (kVA / kW)</label>
+              <input type="text" name="capacity" placeholder="e.g. 500 kVA" />
+            </div>
+            <div class="field">
+              <label>Available Fuel</label>
+              <select name="fuel">
+                <option>Natural Gas (Pipeline PNG)</option>
+                <option>Compressed Natural Gas (CNG)</option>
+                <option>Biogas</option>
+                <option>Dual-Fuel (Diesel + Gas)</option>
+                <option>LPG / Other Gas</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label>Project Details / Requirements</label>
+            <textarea name="message" id="modal-quote-message" rows="3" placeholder="Operating duty, timeline, voltage requirements..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:8px">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            Submit Official RFQ to Engineering
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       JOB APPLICATION MODAL
+  ============================================================ -->
+  <div class="modal-overlay modal-backdrop" id="job-modal">
+    <div class="modal-box modal-container">
+      <div class="modal-header">
+        <div>
+          <span class="badge badge-green" style="margin-bottom:10px">Talent Acquisition</span>
+          <h3 class="t-h3" id="modal-job-heading">Apply for Position</h3>
+          <p class="t-small text-muted" style="margin-top:6px">Submit your credentials directly to Chroma-Ator HR &amp; Talent Acquisition.</p>
+        </div>
+        <button class="modal-header__close" onclick="window.ChromaApp&&ChromaApp.closeModal('job')" aria-label="Close">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="form-job" onsubmit="window.ChromaApp&&ChromaApp.submitJobApplication(event)" enctype="multipart/form-data">
+          <input type="hidden" id="modal-job-id" name="jobId" />
+          <input type="hidden" id="modal-job-title" name="jobTitle" />
+          <div class="field-row">
+            <div class="field">
+              <label>Full Name *</label>
+              <input type="text" name="fullName" required />
+            </div>
+            <div class="field">
+              <label>Email Address *</label>
+              <input type="email" name="email" required />
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label>Phone Number *</label>
+              <input type="tel" name="phone" required />
+            </div>
+            <div class="field">
+              <label>Years of Experience</label>
+              <input type="text" name="experience" placeholder="e.g. 5 years" />
+            </div>
+          </div>
+          <div class="field">
+            <label>Current Company &amp; Role</label>
+            <input type="text" name="currentCompany" />
+          </div>
+          <div class="field">
+            <label>Attach Resume (PDF / DOCX)</label>
+            <input type="file" name="resume" accept=".pdf,.doc,.docx" />
+          </div>
+          <div class="field">
+            <label>Cover Note / Key Achievements</label>
+            <textarea name="coverNote" rows="3" placeholder="Brief summary of your background..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:8px">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            Submit Application
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       PRODUCT CATALOG VIEWER (VIEW ONLY)
+  ============================================================ -->
+  <div class="modal-overlay modal-backdrop catalog-modal" id="catalog-modal" aria-hidden="true">
+    <div class="catalog-dialog" role="dialog" aria-modal="true" aria-labelledby="catalog-title">
+      <div class="catalog-toolbar">
+        <div class="catalog-toolbar__meta">
+          <span class="catalog-toolbar__eyebrow">Product Catalog · View Only</span>
+          <h3 id="catalog-title">Product Catalog</h3>
+        </div>
+        <button type="button" class="catalog-toolbar__close" onclick="window.ChromaApp&&ChromaApp.closeCatalog()" aria-label="Close catalog">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="catalog-viewer" id="catalog-viewer"></div>
+      <div class="catalog-footer">
+        <div class="catalog-footer__nav">
+          <button type="button" class="catalog-nav-btn" id="catalog-prev" onclick="window.ChromaApp&&ChromaApp.catalogPrevPage()">Previous</button>
+          <span class="catalog-page-indicator" id="catalog-page-indicator">Page 1</span>
+          <button type="button" class="catalog-nav-btn" id="catalog-next" onclick="window.ChromaApp&&ChromaApp.catalogNextPage()">Next</button>
+        </div>
+        <span class="catalog-viewonly-note">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          View only — downloading and printing are disabled.
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       VENDOR & APPLICATION SCRIPTS
+  ============================================================ -->
+  <script src="/vendor/lucide.min.js"></script>
+  <script src="/products-client.js?v=3.5"></script>
+  <script src="/globe.js?v=3.4"></script>
+  <script src="/app.js?v=7.9"></script>
+  <script type="module" src="/js/3d/viewer.js?v=1.9"></script>
+
+</body>
+</html>
