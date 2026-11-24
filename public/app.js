@@ -426,26 +426,6 @@
               <span>Request Custom RFQ</span>
             </button>
           </div>
-
-          <!-- Core Highlights Metric Pills -->
-          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16 max-w-4xl mx-auto text-left">
-            <div class="glass-panel p-5">
-              <div class="text-2xl font-mono font-bold text-neon-emerald">5 kVA - 20 MW</div>
-              <div class="text-xs text-muted mt-1 uppercase tracking-wider">Gas Generator Range</div>
-            </div>
-            <div class="glass-panel p-5">
-              <div class="text-2xl font-mono font-bold text-pearl">10 - 70 HP</div>
-              <div class="text-xs text-muted mt-1 uppercase tracking-wider">CPCB Approved Gas Engines</div>
-            </div>
-            <div class="glass-panel p-5">
-              <div class="text-2xl font-mono font-bold text-gold">~5,000</div>
-              <div class="text-xs text-muted mt-1 uppercase tracking-wider">Generators Annual Capacity</div>
-            </div>
-            <div class="glass-panel p-5">
-              <div class="text-2xl font-mono font-bold text-pearl">Up to 70%</div>
-              <div class="text-xs text-muted mt-1 uppercase tracking-wider">Diesel Saving with Dual Fuel</div>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -493,7 +473,7 @@
           <div class="text-center max-w-3xl mx-auto mb-16">
             <span class="badge-gold mb-3">Product Range</span>
             <h2 class="text-3xl sm:text-5xl font-extrabold text-pearl tracking-tight">
-              Gas Power &amp; CNG Refuelling
+              Our Products
             </h2>
             <p class="text-muted mt-3 text-base">
               Gas generators, gas engines, dual-fuel systems and CNG refuelling equipment — designed, manufactured and supported by Chroma-Ator.
@@ -1291,6 +1271,8 @@
         </div>
       </section>
 
+      <!-- Why section photos: Pexels (free licence) — IDs 12270481, 29224559, 11157440, 16544054,
+           3862129, 8961073, 5693845, 8961025 -->
       <section class="about-why py-20">
         <div class="container mx-auto px-6">
           <div class="max-w-3xl mb-12">
@@ -1299,14 +1281,14 @@
             <p class="text-lg text-muted mt-5 leading-relaxed">With a journey spanning three decades, Chroma-Ator combines engineering experience, indigenous product development and in-house manufacturing to deliver specialised power generation and gas-energy solutions.</p>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-            <article class="purpose-item motion-card" style="--motion-delay:0ms"><div class="purpose-item__bg" style="background-image:url('/images/about-factory-01.jpg')" aria-hidden="true"></div><span>01 / Since 1995</span><h3>Three Decades of Industry Experience</h3><p>Established in 1995, our journey spans generator rentals, diesel gensets and advanced gas-energy technologies.</p></article>
-            <article class="purpose-item motion-card" style="--motion-delay:60ms"><div class="purpose-item__bg" style="background-image:url('/images/about-factory-02.jpg')" aria-hidden="true"></div><span>02 / Manufacturing</span><h3>In-House Manufacturing</h3><p>Our products are manufactured in-house, allowing us to maintain greater control over production, engineering and quality.</p></article>
-            <article class="purpose-item motion-card" style="--motion-delay:120ms"><div class="purpose-item__bg" style="background-image:url('/images/about-factory-03.jpg')" aria-hidden="true"></div><span>03 / R&amp;D</span><h3>Research &amp; Development</h3><p>We invest in product research, engineering trials and continuous development to create solutions for evolving industry requirements.</p></article>
-            <article class="purpose-item motion-card" style="--motion-delay:180ms"><div class="purpose-item__bg" style="background-image:url('/images/about-factory-04.jpg')" aria-hidden="true"></div><span>04 / Innovation</span><h3>Indigenous Product Innovation</h3><p>From injector-based Dual Fuel Systems to specialised gas dispensing technologies, we focus on developing our own products and engineering capabilities.</p></article>
-            <article class="purpose-item motion-card" style="--motion-delay:0ms"><div class="purpose-item__bg" style="background-image:url('/images/about-factory-05.jpg')" aria-hidden="true"></div><span>05 / Collaboration</span><h3>Global Technology Collaborations</h3><p>Our technology collaborations with international organisations have helped strengthen our knowledge and capabilities in gas engine technology.</p></article>
-            <article class="purpose-item motion-card" style="--motion-delay:60ms"><div class="purpose-item__bg" style="background-image:url('/images/about-oil-gas.jpg')" aria-hidden="true"></div><span>06 / Approvals</span><h3>Regulatory Approvals</h3><p>Our applicable products have received PESO approvals, demonstrating our focus on meeting relevant regulatory and safety requirements.</p></article>
-            <article class="purpose-item motion-card" style="--motion-delay:120ms"><div class="purpose-item__bg" style="background-image:url('/images/gas-generator-set.jpg')" aria-hidden="true"></div><span>07 / Portfolio</span><h3>Diverse Product Portfolio</h3><p>Our capabilities extend across Gas Gensets, DFS, MRU, CDU, Gas Engines, Compressors, Dispensers, Cascades and DCUs.</p></article>
-            <article class="purpose-item motion-card" style="--motion-delay:180ms"><div class="purpose-item__bg" style="background-image:url('/images/genset-installation.jpg')" aria-hidden="true"></div><span>08 / Projects</span><h3>Project-Based Engineering Experience</h3><p>Our experience in tender-based projects and specialised installations reflects our ability to work with diverse technical and project requirements.</p></article>
+            <article class="purpose-item motion-card" style="--motion-delay:0ms"><div class="purpose-item__bg" style="background-image:url('/images/why/why-experience.jpg')" aria-hidden="true"></div><span>01 / Since 1995</span><h3>Three Decades of Industry Experience</h3><p>Established in 1995, our journey spans generator rentals, diesel gensets and advanced gas-energy technologies.</p></article>
+            <article class="purpose-item motion-card" style="--motion-delay:60ms"><div class="purpose-item__bg" style="background-image:url('/images/why/why-manufacturing.jpg')" aria-hidden="true"></div><span>02 / Manufacturing</span><h3>In-House Manufacturing</h3><p>Our products are manufactured in-house, allowing us to maintain greater control over production, engineering and quality.</p></article>
+            <article class="purpose-item motion-card" style="--motion-delay:120ms"><div class="purpose-item__bg" style="background-image:url('/images/why/why-rnd.jpg')" aria-hidden="true"></div><span>03 / R&amp;D</span><h3>Research &amp; Development</h3><p>We invest in product research, engineering trials and continuous development to create solutions for evolving industry requirements.</p></article>
+            <article class="purpose-item motion-card" style="--motion-delay:180ms"><div class="purpose-item__bg" style="background-image:url('/images/why/why-innovation.jpg')" aria-hidden="true"></div><span>04 / Innovation</span><h3>Indigenous Product Innovation</h3><p>From injector-based Dual Fuel Systems to specialised gas dispensing technologies, we focus on developing our own products and engineering capabilities.</p></article>
+            <article class="purpose-item motion-card" style="--motion-delay:0ms"><div class="purpose-item__bg" style="background-image:url('/images/why/why-collaboration.jpg')" aria-hidden="true"></div><span>05 / Collaboration</span><h3>Global Technology Collaborations</h3><p>Our technology collaborations with international organisations have helped strengthen our knowledge and capabilities in gas engine technology.</p></article>
+            <article class="purpose-item motion-card" style="--motion-delay:60ms"><div class="purpose-item__bg" style="background-image:url('/images/why/why-approvals.jpg')" aria-hidden="true"></div><span>06 / Approvals</span><h3>Regulatory Approvals</h3><p>Our applicable products have received PESO approvals, demonstrating our focus on meeting relevant regulatory and safety requirements.</p></article>
+            <article class="purpose-item motion-card" style="--motion-delay:120ms"><div class="purpose-item__bg" style="background-image:url('/images/why/why-portfolio.jpg')" aria-hidden="true"></div><span>07 / Portfolio</span><h3>Diverse Product Portfolio</h3><p>Our capabilities extend across Gas Gensets, DFS, MRU, CDU, Gas Engines, Compressors, Dispensers, Cascades and DCUs.</p></article>
+            <article class="purpose-item motion-card" style="--motion-delay:180ms"><div class="purpose-item__bg" style="background-image:url('/images/why/why-projects.jpg')" aria-hidden="true"></div><span>08 / Projects</span><h3>Project-Based Engineering Experience</h3><p>Our experience in tender-based projects and specialised installations reflects our ability to work with diverse technical and project requirements.</p></article>
           </div>
           <aside class="why-closing motion-card">
             <h3>More Than Manufacturing. We Engineer Possibilities.</h3>
@@ -1384,20 +1366,38 @@
           <div class="container intl-clients">
             <p class="intl-clients__label">Our Clients</p>
             <div class="intl-clients__grid">
+              <img src="/images/clients/coca-cola.webp" alt="Coca-Cola" loading="lazy" />
+              <img src="/images/clients/gail.webp" alt="GAIL (India) Limited" loading="lazy" />
+              <img src="/images/clients/indian-oil.webp" alt="Indian Oil Corporation" loading="lazy" />
+              <img src="/images/clients/bharat-petroleum.webp" alt="Bharat Petroleum" loading="lazy" />
+              <img src="/images/clients/hero-motocorp.svg" alt="Hero MotoCorp" loading="lazy" />
+              <img src="/images/clients/tata-power.png" alt="Tata Power" loading="lazy" />
+              <img src="/images/clients/titan-company.webp" alt="Titan Company" loading="lazy" />
+              <img src="/images/clients/torrent-gas.jpg" alt="Torrent Gas" loading="lazy" />
               <img src="/images/clients/ambuja-cement.jpg" alt="Ambuja Cement" loading="lazy" />
               <img src="/images/clients/bharat-steel.jpg" alt="Bharat Steel" loading="lazy" />
               <img src="/images/clients/bhutani.jpg" alt="Bhutani Infra" loading="lazy" />
+              <img src="/images/clients/gasonet.jpg" alt="Gasonet" loading="lazy" />
+              <img src="/images/clients/m2k.jpg" alt="M2K Group" loading="lazy" />
               <img src="/images/clients/iem.jpg" alt="IEM" loading="lazy" />
               <img src="/images/clients/pcj.jpg" alt="PCJ" loading="lazy" />
-              <img src="/images/clients/torrent-gas.jpg" alt="Torrent Gas" loading="lazy" />
               <img src="/images/clients/tough-security.jpg" alt="Tough Security Services" loading="lazy" />
               <img src="/images/clients/rotatory.jpg" alt="Rotatory" loading="lazy" />
+              <img src="/images/clients/coca-cola.webp" alt="Coca-Cola" loading="lazy" />
+              <img src="/images/clients/gail.webp" alt="GAIL (India) Limited" loading="lazy" />
+              <img src="/images/clients/indian-oil.webp" alt="Indian Oil Corporation" loading="lazy" />
+              <img src="/images/clients/bharat-petroleum.webp" alt="Bharat Petroleum" loading="lazy" />
+              <img src="/images/clients/hero-motocorp.svg" alt="Hero MotoCorp" loading="lazy" />
+              <img src="/images/clients/tata-power.png" alt="Tata Power" loading="lazy" />
+              <img src="/images/clients/titan-company.webp" alt="Titan Company" loading="lazy" />
+              <img src="/images/clients/torrent-gas.jpg" alt="Torrent Gas" loading="lazy" />
               <img src="/images/clients/ambuja-cement.jpg" alt="Ambuja Cement" loading="lazy" />
               <img src="/images/clients/bharat-steel.jpg" alt="Bharat Steel" loading="lazy" />
               <img src="/images/clients/bhutani.jpg" alt="Bhutani Infra" loading="lazy" />
+              <img src="/images/clients/gasonet.jpg" alt="Gasonet" loading="lazy" />
+              <img src="/images/clients/m2k.jpg" alt="M2K Group" loading="lazy" />
               <img src="/images/clients/iem.jpg" alt="IEM" loading="lazy" />
               <img src="/images/clients/pcj.jpg" alt="PCJ" loading="lazy" />
-              <img src="/images/clients/torrent-gas.jpg" alt="Torrent Gas" loading="lazy" />
               <img src="/images/clients/tough-security.jpg" alt="Tough Security Services" loading="lazy" />
               <img src="/images/clients/rotatory.jpg" alt="Rotatory" loading="lazy" />
             </div>
@@ -1469,7 +1469,7 @@
             </div>
             <div class="intl-presence-grid">
               <article class="intl-presence-card">
-                <div class="intl-media intl-media--presence"><img src="/images/intl-uae.jpg" alt="Chroma-Ator international customer and export network" loading="lazy" /></div>
+                <div class="intl-media intl-media--presence"><img src="/images/intl-uae.jpg" alt="Chroma-Ator UAE and Middle East International Business Hub - Modern Dubai Skyline" loading="lazy" /></div>
                 <div class="intl-presence-card__body">
                   <span>UAE</span>
                   <h3>International Business Office</h3>
@@ -1477,7 +1477,7 @@
                 </div>
               </article>
               <article class="intl-presence-card">
-                <div class="intl-media intl-media--presence"><img src="/images/intl-india.jpg" alt="Chroma-Ator manufacturing facility in India" loading="lazy" /></div>
+                <div class="intl-media intl-media--presence"><img src="/images/intl-india.jpg" alt="Chroma-Ator India Manufacturing &amp; Engineering Foundation - Bandra-Worli Sea Link and Mumbai Infrastructure" loading="lazy" /></div>
                 <div class="intl-presence-card__body">
                   <span>India</span>
                   <h3>Manufacturing &amp; Engineering</h3>
@@ -1518,9 +1518,6 @@
               <h2>Exploring Opportunities Across Global Markets</h2>
               <p>We are looking to develop business relationships across:</p>
             </div>
-            <div class="intl-map">
-              <img src="/images/intl-markets.jpg" alt="World map showing Chroma-Ator export markets and client network" loading="lazy" />
-            </div>
             <div class="intl-market-grid">
               <article class="intl-market-card"><h3>Middle East</h3><p>UAE, Saudi Arabia, Oman, Qatar, Kuwait and other GCC markets.</p></article>
               <article class="intl-market-card"><h3>Africa</h3><p>Opportunities in energy, industrial and gas infrastructure.</p></article>
@@ -1529,39 +1526,72 @@
             </div>
             <div class="intl-industries">
               <h3>Industries we cater to include:</h3>
-              <ul class="intl-tags">
-                <li>Oil &amp; Gas</li>
-                <li>City Gas Distribution</li>
-                <li>Power Generation</li>
-                <li>CNG Infrastructure</li>
-                <li>Manufacturing</li>
-                <li>Data Centres</li>
-                <li>Transportation</li>
-                <li>Infrastructure Development</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <section class="intl-support" id="intl-support">
-          <div class="container intl-split intl-split--support">
-            <div class="intl-media intl-media--support">
-              <img src="/images/intl-support.jpg" alt="Chroma-Ator gas refuelling project installation" loading="lazy" />
-            </div>
-            <div class="intl-copy">
-              <span class="intl-kicker">International sales &amp; project enquiries</span>
-              <h2>The Right Products for Your Requirements</h2>
-              <p>We welcome international enquiries from customers seeking equipment for their projects and business operations.</p>
-              <h3>Our team can coordinate:</h3>
-              <ul class="intl-check-list">
-                <li>Product selection and application discussions.</li>
-                <li>Available technical specifications and drawings.</li>
-                <li>Project-specific requirements.</li>
-                <li>Commercial quotations and product supply.</li>
-                <li>Manufacturing and export coordination.</li>
-                <li>Installation, commissioning and technical support arrangements, according to the agreed project scope.</li>
-              </ul>
-              <button type="button" onclick="document.getElementById('intl-contact')?.scrollIntoView({ behavior: 'smooth', block: 'start' })" class="btn-luxury">Start an Enquiry</button>
+              <div class="intl-industry-grid">
+                <div class="intl-industry-card">
+                  <div class="intl-industry-card__bg" style="background-image: url('/images/intl-ind-oil-gas.jpg');" aria-hidden="true"></div>
+                  <div class="intl-industry-card__overlay"></div>
+                  <div class="intl-industry-card__content">
+                    <span class="intl-industry-card__dot"></span>
+                    <span class="intl-industry-card__title">Oil &amp; Gas</span>
+                  </div>
+                </div>
+                <div class="intl-industry-card">
+                  <div class="intl-industry-card__bg" style="background-image: url('/images/intl-ind-city-gas.jpg');" aria-hidden="true"></div>
+                  <div class="intl-industry-card__overlay"></div>
+                  <div class="intl-industry-card__content">
+                    <span class="intl-industry-card__dot"></span>
+                    <span class="intl-industry-card__title">City Gas Distribution</span>
+                  </div>
+                </div>
+                <div class="intl-industry-card">
+                  <div class="intl-industry-card__bg" style="background-image: url('/images/intl-ind-power-gen.jpg');" aria-hidden="true"></div>
+                  <div class="intl-industry-card__overlay"></div>
+                  <div class="intl-industry-card__content">
+                    <span class="intl-industry-card__dot"></span>
+                    <span class="intl-industry-card__title">Power Generation</span>
+                  </div>
+                </div>
+                <div class="intl-industry-card">
+                  <div class="intl-industry-card__bg" style="background-image: url('/images/intl-ind-cng-infra.jpg');" aria-hidden="true"></div>
+                  <div class="intl-industry-card__overlay"></div>
+                  <div class="intl-industry-card__content">
+                    <span class="intl-industry-card__dot"></span>
+                    <span class="intl-industry-card__title">CNG Infrastructure</span>
+                  </div>
+                </div>
+                <div class="intl-industry-card">
+                  <div class="intl-industry-card__bg" style="background-image: url('/images/intl-ind-manufacturing.jpg');" aria-hidden="true"></div>
+                  <div class="intl-industry-card__overlay"></div>
+                  <div class="intl-industry-card__content">
+                    <span class="intl-industry-card__dot"></span>
+                    <span class="intl-industry-card__title">Manufacturing</span>
+                  </div>
+                </div>
+                <div class="intl-industry-card">
+                  <div class="intl-industry-card__bg" style="background-image: url('/images/intl-ind-data-centres.jpg');" aria-hidden="true"></div>
+                  <div class="intl-industry-card__overlay"></div>
+                  <div class="intl-industry-card__content">
+                    <span class="intl-industry-card__dot"></span>
+                    <span class="intl-industry-card__title">Data Centres</span>
+                  </div>
+                </div>
+                <div class="intl-industry-card">
+                  <div class="intl-industry-card__bg" style="background-image: url('/images/intl-ind-transportation.jpg');" aria-hidden="true"></div>
+                  <div class="intl-industry-card__overlay"></div>
+                  <div class="intl-industry-card__content">
+                    <span class="intl-industry-card__dot"></span>
+                    <span class="intl-industry-card__title">Transportation</span>
+                  </div>
+                </div>
+                <div class="intl-industry-card">
+                  <div class="intl-industry-card__bg" style="background-image: url('/images/intl-ind-infrastructure.jpg');" aria-hidden="true"></div>
+                  <div class="intl-industry-card__overlay"></div>
+                  <div class="intl-industry-card__content">
+                    <span class="intl-industry-card__dot"></span>
+                    <span class="intl-industry-card__title">Infrastructure Development</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -1826,7 +1856,7 @@
           <div class="text-center max-w-3xl mx-auto mb-16">
             <span class="badge-emerald mb-2">Track Record</span>
             <h1 class="text-3xl sm:text-5xl font-extrabold text-pearl tracking-tight">
-              Selected Installations
+              Our Achievements
             </h1>
             <p class="text-muted mt-3 text-base">
               Gas generators, dual-fuel systems and water metering projects delivered for city gas distribution, public infrastructure, telecom and municipal utilities.

@@ -412,7 +412,7 @@ window.CHROMA_INDUSTRIES = [
   {
     "title": "Data Centres & IT Infrastructure",
     "slug": "data-centres",
-    "image": "/images/industry-data-centres.jpg",
+    "image": "/images/industry-data-centres.jpg?v=2",
     "icon": "Server",
     "desc": "Reliable backup power and gas-based generation solutions for data centres, server facilities and critical IT infrastructure.",
     "products": [
@@ -423,7 +423,7 @@ window.CHROMA_INDUSTRIES = [
   {
     "title": "Oil, Gas & Energy",
     "slug": "oil-gas",
-    "image": "/images/industry-oil-gas.jpg",
+    "image": "/images/industry-oil-gas.jpg?v=2",
     "icon": "Flame",
     "desc": "Power generation, gas handling and refuelling solutions for oilfields, gas processing facilities and energy infrastructure.",
     "products": [
@@ -436,7 +436,7 @@ window.CHROMA_INDUSTRIES = [
   {
     "title": "City Gas Distribution & CNG Infrastructure",
     "slug": "city-gas",
-    "image": "/images/industry-city-gas.jpg",
+    "image": "/images/industry-city-gas.jpg?v=2",
     "icon": "Fuel",
     "desc": "Gas dispensing and mobile refuelling solutions for CNG stations, daughter stations and gas distribution networks.",
     "products": [
@@ -448,7 +448,7 @@ window.CHROMA_INDUSTRIES = [
   {
     "title": "Manufacturing & Industrial Facilities",
     "slug": "manufacturing",
-    "image": "/images/industry-manufacturing.jpg",
+    "image": "/images/industry-manufacturing.jpg?v=2",
     "icon": "Factory",
     "desc": "Power solutions for factories, production plants and industrial operations requiring dependable energy.",
     "products": [
@@ -459,7 +459,7 @@ window.CHROMA_INDUSTRIES = [
   {
     "title": "Telecommunications",
     "slug": "telecommunications",
-    "image": "/images/industry-telecom.jpg",
+    "image": "/images/industry-telecom.jpg?v=2",
     "icon": "Radio",
     "desc": "Power generation solutions for telecom towers, network infrastructure and remote communication facilities.",
     "products": [
@@ -470,7 +470,7 @@ window.CHROMA_INDUSTRIES = [
   {
     "title": "Waste Management & Renewable Energy",
     "slug": "renewable-energy",
-    "image": "/images/industry-renewable.jpg",
+    "image": "/images/industry-renewable.jpg?v=2",
     "icon": "Leaf",
     "desc": "Gas-based power generation and fuel solutions for waste-to-energy facilities, sewage treatment plants and biogas projects.",
     "products": [
@@ -482,7 +482,7 @@ window.CHROMA_INDUSTRIES = [
   {
     "title": "Construction & Infrastructure",
     "slug": "construction",
-    "image": "/images/industry-construction.jpg",
+    "image": "/images/industry-construction.jpg?v=2",
     "icon": "HardHat",
     "desc": "Power generation solutions for construction sites, infrastructure projects and large-scale developments.",
     "products": [
@@ -494,7 +494,7 @@ window.CHROMA_INDUSTRIES = [
   {
     "title": "Marine & Transportation",
     "slug": "marine-transportation",
-    "image": "/images/industry-marine.jpg",
+    "image": "/images/industry-marine.jpg?v=2",
     "icon": "Ship",
     "desc": "Engine and dual-fuel solutions for selected marine, transport and heavy-duty applications.",
     "products": [
@@ -505,7 +505,7 @@ window.CHROMA_INDUSTRIES = [
   {
     "title": "Commercial & Residential Developments",
     "slug": "commercial-residential",
-    "image": "/images/industry-commercial-residential.jpg",
+    "image": "/images/industry-commercial-residential.jpg?v=2",
     "icon": "Building2",
     "desc": "Power generation solutions for offices, hospitals, hotels, housing societies and commercial establishments.",
     "products": [

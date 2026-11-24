@@ -238,7 +238,7 @@ const INDUSTRIES = [
   {
     title: "Data Centres & IT Infrastructure",
     slug: "data-centres",
-    image: "/images/industry-data-centres.jpg",
+    image: "/images/industry-data-centres.jpg?v=2",
     icon: "Server",
     desc: "Reliable backup power and gas-based generation solutions for data centres, server facilities and critical IT infrastructure.",
     products: ["Gas Gensets", "DFS"]
@@ -246,7 +246,7 @@ const INDUSTRIES = [
   {
     title: "Oil, Gas & Energy",
     slug: "oil-gas",
-    image: "/images/industry-oil-gas.jpg",
+    image: "/images/industry-oil-gas.jpg?v=2",
     icon: "Flame",
     desc: "Power generation, gas handling and refuelling solutions for oilfields, gas processing facilities and energy infrastructure.",
     products: ["Gas Gensets", "MRU", "CDU", "DFS"]
@@ -254,7 +254,7 @@ const INDUSTRIES = [
   {
     title: "City Gas Distribution & CNG Infrastructure",
     slug: "city-gas",
-    image: "/images/industry-city-gas.jpg",
+    image: "/images/industry-city-gas.jpg?v=2",
     icon: "Fuel",
     desc: "Gas dispensing and mobile refuelling solutions for CNG stations, daughter stations and gas distribution networks.",
     products: ["MRU", "CDU", "Dispensers"]
@@ -262,7 +262,7 @@ const INDUSTRIES = [
   {
     title: "Manufacturing & Industrial Facilities",
     slug: "manufacturing",
-    image: "/images/industry-manufacturing.jpg",
+    image: "/images/industry-manufacturing.jpg?v=2",
     icon: "Factory",
     desc: "Power solutions for factories, production plants and industrial operations requiring dependable energy.",
     products: ["Gas Gensets", "DFS"]
